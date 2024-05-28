@@ -35,7 +35,7 @@ const ProjectCard: FunctionComponent<{
 
             {showDetail && (
                 <div
-                    className="absolute top-0 left-0 z-10 grid w-full h-auto p-2 text-black bg-gray-100 md:grid-cols-2 gap-x-12 dark:text-white dark:bg-dark-100">
+                    className="absolute top-0 left-0 z-10 grid w-full h-auto p-2 md:grid-cols-2 gap-x-12 text-white bg-dark-100">
                     <div>
                         <Image
                             src={image_path}
@@ -47,13 +47,13 @@ const ProjectCard: FunctionComponent<{
                         <div className="flex justify-center my-4 space-x-3">
                             <Link
                                 href={github_url}
-                                className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200"
+                                className="flex items-center px-4 py-2 space-x-3 text-lg bg-dark-200"
                             >
                                 <AiFillGithub/> <span>Github</span>
                             </Link>
                             <Link
                                 href={deployed_url}
-                                className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200"
+                                className="flex items-center px-4 py-2 space-x-3 text-lg bg-dark-200"
                             >
                                 <AiFillProject/> <span>Project</span>
                             </Link>
@@ -68,7 +68,7 @@ const ProjectCard: FunctionComponent<{
                             {key_techs.map((tech) => (
                                 <span
                                     key={tech}
-                                    className="px-2 py-1 my-1 bg-gray-200 dark:bg-dark-200 rounde-sm"
+                                    className="px-2 py-1 my-1 bg-dark-200 rounde-sm"
                                 >
                   {tech}
                 </span>
@@ -78,7 +78,7 @@ const ProjectCard: FunctionComponent<{
 
                     <button
                         onClick={() => setShowDetail(false)}
-                        className="absolute p-1 bg-gray-200 rounded-full top-3 right-3 focus:outline-none dark:bg-dark-200"
+                        className="absolute p-1 rounded-full top-3 right-3 focus:outline-none bg-dark-200"
                     >
                         <MdClose size={30}/>
                     </button>

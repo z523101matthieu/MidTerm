@@ -19,7 +19,7 @@ const Sidebar = () => {
             <h3 className="my-4 text-3xl font-medium tracking-wider">
                 <span className="text-yellow-400 ">Matthieu</span> Daumas
             </h3>
-            <p className="px-2 py-1 my-3 bg-gray-200 rounded-lg dark:bg-dark-200 dark:bg-black-500">
+            <p className="px-2 py-1 my-3 rounded-lg bg-dark-200 bg-black-500">
                 Software Developer
             </p>
 
@@ -38,7 +38,7 @@ const Sidebar = () => {
 
             {/* Contacts */}
             <div
-                className="py-4 my-5 bg-gray-200 dark:bg-dark-200 dark:bg-black-500"
+                className="py-4 my-5 bg-dark-200 bg-black-500"
                 style={{marginLeft: "-1rem", marginRight: "-1rem"}}
             >
                 <div className="flex items-center justify-center">
