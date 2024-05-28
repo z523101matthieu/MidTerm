@@ -1,7 +1,6 @@
 import {RiComputerLine} from "react-icons/ri";
 import {FaServer} from "react-icons/fa";
-import {AiOutlineAntDesign, AiOutlineApi} from "react-icons/ai";
-import {MdDeveloperMode, MdLock} from "react-icons/md";
+import {AiOutlineApi} from "react-icons/ai";
 import {IProject, Service, Skill} from "./types";
 
 import {BsCircleFill} from "react-icons/bs";
@@ -94,7 +93,7 @@ export const projects: IProject[] = [
         name: "Audio Visualizer",
         description:
             "An app to show the sound waves of a music",
-        image_path: "/images/audio visualizer.png",
+        image_path: "/MidTerm/images/audio visualizer.png",
         deployed_url: "https://github.com/jj136975/Audio-Visualizer",
         github_url: "https://github.com/jj136975/Audio-Visualizer",
         category: ["C/C++"],
@@ -104,7 +103,7 @@ export const projects: IProject[] = [
         name: "Corewar",
         description:
             "An app that emulate a VM where several programs fight each others",
-        image_path: "/images/corewar.png",
+        image_path: "/MidTerm/images/corewar.png",
         deployed_url: "https://github.com/EpitechIT2020/B-CPE-201-BRU-2-1-corewar-guillaume.janssens",
         github_url: "https://github.com/EpitechIT2020/B-CPE-201-BRU-2-1-corewar-guillaume.janssens",
         category: ["C/C++"],
@@ -114,7 +113,7 @@ export const projects: IProject[] = [
         name: "Bomberman",
         description:
             "A 3D game where the objective is to explode other players",
-        image_path: "/images/bomberman.png",
+        image_path: "/MidTerm/images/bomberman.png",
         deployed_url: "https://github.com/EpitechPromo2025/B-YEP-400-BRU-4-1-indiestudio-victor.vindevogel",
         github_url: "https://github.com/EpitechPromo2025/B-YEP-400-BRU-4-1-indiestudio-victor.vindevogel",
         category: ["C/C++"],
@@ -124,10 +123,10 @@ export const projects: IProject[] = [
         name: "Ray Caster",
         description:
             "A program that render a fake 3D scene through 2D raycast",
-        image_path: "/images/raycaster.png",
+        image_path: "/MidTerm/images/raycaster.png",
         deployed_url: "https://github.com/jj136975/3D-Chasing-Game",
         github_url: "https://github.com/jj136975/3D-Chasing-Game",
         category: ["Java"],
-        key_techs: ["Hava", "Game", "3D", "Math"],
+        key_techs: ["Java", "Game", "3D", "Math"],
     },
 ];

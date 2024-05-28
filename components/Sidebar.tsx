@@ -9,7 +9,7 @@ const Sidebar = () => {
     return (
         <>
             <Image
-                src="/images/me.jpg"
+                src="/MidTerm/images/me.jpg"
                 alt="avatar"
                 className=" mx-auto border rounded-full "
                 height="128"
