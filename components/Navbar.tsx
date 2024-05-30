@@ -8,15 +8,16 @@ const NavItem: FunctionComponent<{
     name: string
     route: string
 }> = ({active, setActive, name, route}) => {
-    return active !== name ? (
+    let className = 'mx-2 cursor-pointer hover:border-b-4 ' + (active === name ? 'text-yellow-500' : 'hover:text-yellow-300');
+    return (
         <Link href={route}>
             <span
-                className='mx-2 cursor-pointer hover:border-b-4 hover:text-yellow-300'
+                className={className}
                 onClick={() => setActive(name)}>
                {name}
             </span>
         </Link>
-    ) : null
+    )
 }
 
 const Navbar = () => {
