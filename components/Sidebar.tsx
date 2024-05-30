@@ -17,14 +17,14 @@ const Sidebar = () => {
                 // quality="100"
             />
             <h3 className="my-4 text-3xl font-medium tracking-wider">
-                <span className="text-yellow-400 ">Matthieu</span> Daumas
+                <span className="text-blue-400 ">Matthieu</span> Daumas
             </h3>
             <p className="px-2 py-1 my-3 rounded-lg bg-dark-200 bg-black-500">
                 Software Developer
             </p>
 
             {/* Socials */}
-            <div className="flex justify-around w-9/12 mx-auto my-5 text-yellow-400 md:w-full ">
+            <div className="flex justify-around w-9/12 mx-auto my-5 text-blue-400 md:w-full ">
                 <Link href="https://www.facebook.com/profile.php?id=100005592077601">
                     <AiFillFacebook className="w-8 h-8 cursor-pointer"/>
                 </Link>
@@ -50,7 +50,7 @@ const Sidebar = () => {
 
             {/* Email Button */}
             <button
-                className="w-8/12 px-5 py-2 text-white bg-black rounded-lg cursor-pointer bg-gradient-to-r from-yellow-400 to-yellow-600 hover:scale-105 focus:outline-none"
+                className="w-8/12 px-5 py-2 text-white bg-black rounded-lg cursor-pointer bg-gradient-to-r from-blue-400 to-blue-600 hover:scale-105 focus:outline-none"
                 onClick={() => window.open("mailto:mattdaumas@hotmail.com")}
             >
                 Email me
